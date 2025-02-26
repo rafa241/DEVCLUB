@@ -1,0 +1,156 @@
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: #4CB538;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+header {
+    margin: 47px 42px 178px 42px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+
+}
+
+p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.button-section {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.img-main {
+    width: 534px;
+    height: 467px;
+    display: inline-block;
+    margin-left: 121px;
+}
+
+@media screen and (max-width: 1300px) {
+
+   
+
+    section {
+        display: block;
+        margin: 0;
+        padding: 0 25px;
+        position: relative;
+        bottom: 120px;
+       
+
+    }
+
+
+    .links-header {
+        display: none;
+    }
+
+    .button-header {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        width: 91px;
+        height: 31px;
+        display: block;
+        margin-top: -28px;
+        margin-left: 240px;
+        
+     
+    }
+
+    .img {
+        position: absolute;
+        margin: 267px 20px;
+        display: block;
+        max-width:90%;
+        
+      
+       
+
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: auto;
+
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        width: auto;
+    }
+
+    .button-section {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+
+
+
+
+
+
+}
