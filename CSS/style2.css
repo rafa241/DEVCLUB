@@ -71,16 +71,18 @@ p {
 
 }
 
-.img-main {
+.img {
     width: 534px;
     height: 467px;
     display: inline-block;
     margin-left: 121px;
+
+
 }
 
 @media screen and (max-width: 1300px) {
 
-   
+
 
     section {
         display: block;
@@ -88,7 +90,7 @@ p {
         padding: 0 25px;
         position: relative;
         bottom: 120px;
-       
+
 
     }
 
@@ -106,18 +108,19 @@ p {
         display: block;
         margin-top: -28px;
         margin-left: 240px;
-        
-     
+
+
     }
 
     .img {
         position: absolute;
-        margin: 267px 20px;
+        margin: 220px 20px;
         display: block;
-        max-width:90%;
-        
-      
-       
+        max-width: 90%;
+        max-height: 40%;
+
+
+
 
     }
 
